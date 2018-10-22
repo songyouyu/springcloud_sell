@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: order
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: CONFIG
+      profile: test
+#  此处不需要配置 rabbitmq, 已经放入配置中心
+#  rabbitmq:
+#    host: 192.168.28.132
+#    port: 5672
+#    username: guest
+#    password: guest
+
+# 此项配置不能放入配置中心
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+

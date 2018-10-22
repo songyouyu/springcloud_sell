@@ -1,0 +1,31 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://gitee.com/sxyrain/config-repo
+          username: songyy950208@163.com
+          password: Wabhm195208...
+          basedir: F:\basedir
+  # 此处由于用的是虚拟机环境, 所以需要配置 rabbitmq, springcloud bus 启动时会自动尝试连接本地 rabbitmq
+  rabbitmq:
+    host: 192.168.28.132
+    port: 5672
+    username: guest
+    password: guest
+#  暴露接口
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+server:
+  port: 8082
