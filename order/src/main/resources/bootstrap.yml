@@ -7,6 +7,14 @@ spring:
         enabled: true
         service-id: CONFIG
       profile: test
+    # 把服务分在同一个组里面, 保证只会有其中一个实例来消费消息
+    stream:
+      bindings:
+        songMessage:
+          group: order
+          # 调试时可以方便在 mq 里面看到对象的 json 字符串格式
+          content-type: application/json
+
 #  此处不需要配置 rabbitmq, 已经放入配置中心
 #  rabbitmq:
 #    host: 192.168.28.132

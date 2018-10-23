@@ -21,8 +21,15 @@ public class MqSenderTest {
     private AmqpTemplate amqpTemplate;
 
     @Test
-    public void send() {
+    public void sendFruit() {
         amqpTemplate.convertAndSend("myQueue", "now : " + new Date());
     }
+
+    @Test
+    public void sendComputer() {
+        amqpTemplate.convertAndSend("myOrder","computer", "now : " + new Date());
+    }
+
+
 
 }

@@ -1,9 +1,11 @@
 package com.imooc.product.dataobject;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.util.Date;
 
@@ -13,7 +15,7 @@ import java.util.Date;
  */
 @Data
 @Entity // 让对象与数据库表之间对应
-public class ProductInfo {
+public class ProductInfo implements Serializable {
 
     @Id
     private String productId;
@@ -39,8 +41,10 @@ public class ProductInfo {
     /** 类目编号. */
     private Integer categoryType;
 
+    @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
     private Date createTime;
 
+    @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
     private Date updateTime;
 
 }

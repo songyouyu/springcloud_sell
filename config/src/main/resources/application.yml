@@ -11,8 +11,8 @@ spring:
       server:
         git:
           uri: https://gitee.com/sxyrain/config-repo
-          username: xxxxxxxxxx@163.com
-          password: xxxxxxxxxx
+          username: songyy950208@163.com
+          password: Wabhm195208...
           basedir: F:\basedir
   # 此处由于用的是虚拟机环境, 所以需要配置 rabbitmq, springcloud bus 启动时会自动尝试连接本地 rabbitmq
   rabbitmq:
