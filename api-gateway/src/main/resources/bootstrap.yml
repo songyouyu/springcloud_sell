@@ -1,0 +1,37 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: CONFIG
+      profile: dev
+
+# 此项配置不能放入配置中心
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+server:
+  port: 8083
+
+# 可以放入配置中心
+zuul:
+  routes:
+    myProduct:
+      path: /myProduct/**
+      serviceId: product
+      # 可以传递 cookie
+      sensitiveHeaders:
+    # 简洁写法
+#    product: /myProduct/**
+    # 排除某些路由
+  ignored-patterns:
+    # - 表示 set 集合
+    - /**/product/listForOrder
+
+#management:
+#  security:
+#    enabled: false
