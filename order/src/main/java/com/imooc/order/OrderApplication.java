@@ -2,12 +2,16 @@ package com.imooc.order;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.cloud.openfeign.EnableFeignClients;
+import org.springframework.cloud.client.SpringCloudApplication;
 
 @SpringBootApplication
-@EnableEurekaClient
-@EnableFeignClients
+//@EnableEurekaClient
+//@EnableFeignClients
+//// hystrix
+//@EnableCircuitBreaker
+@SpringCloudApplication
+// 此版本该注解不可用
+// @EnableHystrixDashboard
 public class OrderApplication {
 
     public static void main(String[] args) {

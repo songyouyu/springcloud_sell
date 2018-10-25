@@ -24,13 +24,18 @@ zuul:
       path: /myProduct/**
       serviceId: product
       # 可以传递 cookie
-      sensitiveHeaders:
+#      sensitiveHeaders:
+    myOrder:
+      path: /myOrder/**
+      serviceId: order
     # 简洁写法
 #    product: /myProduct/**
     # 排除某些路由
   ignored-patterns:
     # - 表示 set 集合
     - /**/product/listForOrder
+  # 全部服务忽略敏感头(全部服务都可以传递 cookie)
+  sensitive-headers:
 
 #management:
 #  security:
