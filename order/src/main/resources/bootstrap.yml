@@ -14,6 +14,13 @@ spring:
           group: order
           # 调试时可以方便在 mq 里面看到对象的 json 字符串格式
           content-type: application/json
+#  服务跟踪
+  zipkin:
+    base-url: http://192.168.28.132:9411/
+  sleuth:
+    sampler:
+      # 百分比, 即发送出去的数据的比例
+      percentage: 1
 
 #  此处不需要配置 rabbitmq, 已经放入配置中心
 #  rabbitmq:
@@ -33,3 +40,6 @@ feign:
   hystrix:
     enabled: true
 
+logging:
+  level:
+    org.springframework.cloud.openfeign: debug

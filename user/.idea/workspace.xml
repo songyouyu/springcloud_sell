@@ -2,58 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4253139d-3f53-49d9-8a9d-97b43c9ea9d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../api-gateway/src/main/java/com/imooc/apigateway/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/src/main/java/com/imooc/apigateway/constant/CookieConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/src/main/java/com/imooc/apigateway/constant/RedisConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/src/main/java/com/imooc/apigateway/exception/RateLimitException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/src/main/java/com/imooc/apigateway/filter/AddResponseHeaderFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/src/main/java/com/imooc/apigateway/filter/AuthBuyerFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/src/main/java/com/imooc/apigateway/filter/AuthSellerFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/src/main/java/com/imooc/apigateway/filter/RateLimitFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/src/main/java/com/imooc/apigateway/filter/TokenFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../api-gateway/src/main/java/com/imooc/apigateway/utils/CookieUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../order/src/main/java/com/imooc/order/controller/HystrixController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/songy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/user/UserApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/user/VO/ResultVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/user/constant/CookieConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/user/constant/RedisConstant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/user/controller/LoginController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/user/dataobject/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/user/enums/ResultEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/user/enums/RoleEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/user/repository/UserInfoRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/user/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/user/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/user/utils/CookieUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/imooc/user/utils/ResultVOUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/imooc/user/UserApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api-gateway/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../api-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../config/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../config/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../order/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../order/src/main/java/com/imooc/order/OrderApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order/src/main/java/com/imooc/order/OrderApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../order/src/main/java/com/imooc/order/client/ProductClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order/src/main/java/com/imooc/order/client/ProductClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../order/src/main/java/com/imooc/order/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order/src/main/java/com/imooc/order/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../order/src/main/java/com/imooc/order/enums/ResultEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order/src/main/java/com/imooc/order/enums/ResultEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../order/src/main/java/com/imooc/order/repository/OrderDetailRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order/src/main/java/com/imooc/order/repository/OrderDetailRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../order/src/main/java/com/imooc/order/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order/src/main/java/com/imooc/order/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../order/src/main/java/com/imooc/order/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../order/src/main/java/com/imooc/order/service/impl/OrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../order/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../order/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../product/src/main/java/com/imooc/product/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../product/src/main/java/com/imooc/product/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -404,7 +356,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540456462609" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540458799578" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sell" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
